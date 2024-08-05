@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Rochester&display=swap');
+
+/* font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+  .hind-madurai-light {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.hind-madurai-regular {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hind-madurai-medium {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.hind-madurai-semibold {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hind-madurai-bold {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+  */
+.custom-navbar {
+    background-color:#060d77e3;
+    border: 1px solid #ffffff;
+  }
+  .custom-navbar .navbar-nav > li > a,
+  .custom-navbar .navbar-brand {
+    color: #ffffff !important;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  }
+  .custom-navbar .navbar-toggle {
+    border-color: #060E77;
+  }
+  .custom-navbar .icon-bar {
+    background-color: #060E77;
+    color: #060E77;
+}
+.navbar-toggle{
+      background-color: #060E77;
+    
+  }
+h1{
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  text-shadow: 1px 1px 1px rgb(193, 193, 193);
+  color: #7291C0;
+  text-align: center;
+}
+
+  .midia{
+    width: 2.5em;
+    margin: 10px;
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.894);
+  }
+  footer p{
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px rgb(193, 193, 193);
+}
+.contacts{
+    text-align: center;
+    margin-top:25px ;
+    margin-bottom: 50px;
+}
+.contacts a {
+    text-decoration: none;
+}
+h3{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #060E77;
+    text-shadow: 1px 1px 1px rgb(193, 193, 193);
+}
+#atividades p{
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.atv{
+    text-align: center;
+   
+}
+.atv b{
+    background-color: #21139e;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  }
+  .atv b:hover{
+    background-color: #7291C0;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  }
+ 
+  /**/
+
+/**/  
+#logo{
+  width: 75%;
+}
+.header{
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h4{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #060E77;
+  text-shadow: 1px 1px 1px rgb(193, 193, 193);
+  border-bottom-style: solid;
+  border-bottom-color: #7291C0;
+  border-bottom-width: 1px;
+  margin-left: 15px;
+}
+.familiaP{
+  padding: 10px;
+}
+.btn{
+  font-family: "Lora", serif;
+  width: 100%;
+  text-align: justify;
+  background-color: #21139e;
+  color: #8fb7f2;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.btn span{
+  float: right;
+}
+.btn:hover{
+  color: white;
+}
+#demo,#demo2,#demo3{
+  padding: 10px;
+  text-align: justify;
+}
+#logo1{
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 0;
+
+}
+#body{
+  background-color: #060d77d0;
+  background-image: url("assets/bg.png");
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+.header{
+  background-color: white;
+  height: 55vh;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#logo11{
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.6em;
+  text-shadow: 1px 1px 1px rgb(169, 169, 169);
+  color: #060E77;
+  text-align: center;
+}
+
+table{
+  text-align: center;
+  margin-top: 50px;
+}
+th{
+  padding: 10px 10px;
+}
+
